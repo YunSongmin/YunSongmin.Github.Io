@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>그룹웨어 구축 상담 일정</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      margin: 0;
+      padding: 40px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .header {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 24px;
+    }
+
+    .header h1 {
+      margin: 0 0 10px 0;
+      font-size: 32px;
+    }
+
+    .header p {
+      margin: 6px 0;
+      line-height: 1.6;
+    }
+
+    .section {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 24px;
+    }
+
+    .section h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #e9edf5;
+      padding-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+
+    th, td {
+      border: 1px solid #dce3ee;
+      padding: 14px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #eef3fb;
+    }
+
+    .status {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .available {
+      background: #e4f7e7;
+      color: #1f7a35;
+    }
+
+    .pending {
+      background: #fff3d9;
+      color: #a26a00;
+    }
+
+    ul {
+      line-height: 1.8;
+      padding-left: 22px;
+    }
+
+    .footer {
+      text-align: center;
+      color: #777;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h1>그룹웨어 구축 상담 일정</h1>
+      <p><strong>고객사:</strong> ABC테크</p>
+      <p><strong>진행 업체:</strong> 미래그룹웨어솔루션</p>
+      <p><strong>작성일:</strong> 2026-05-21</p>
+      <p>
+        아래 일정은 그룹웨어 구축 관련 초기 상담 및 요구사항 분석을 위한 미팅 일정입니다.
+        가능한 시간을 확인 후 회신 부탁드립니다.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>1. 초기 제품 소개 및 기능 시연</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>일정</th>
+            <th>시간</th>
+            <th>방식</th>
+            <th>주요 내용</th>
+            <th>상태</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2026-05-25</td>
+            <td>10:00 ~ 11:30</td>
+            <td>Zoom 온라인 미팅</td>
+            <td>
+              - 그룹웨어 주요 기능 소개<br>
+              - 전자결제 시연<br>
+              - 모바일 앱 소개
+            </td>
+            <td><span class="status available">선택 가능</span></td>
+          </tr>
+          <tr>
+            <td>2026-05-25</td>
+            <td>14:00 ~ 15:30</td>
+            <td>Teams 온라인 미팅</td>
+            <td>
+              - 메일 및 일정 기능 설명<br>
+              - 조직도/게시판 기능 소개
+            </td>
+            <td><span class="status available">선택 가능</span></td>
+          </tr>
+          <tr>
+            <td>2026-05-26</td>
+            <td>16:00 ~ 17:30</td>
+            <td>방문 미팅</td>
+            <td>
+              - 구축 사례 설명<br>
+              - 실제 운영 화면 데모
+            </td>
+            <td><span class="status pending">조율 중</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>2. 요구사항 분석 미팅</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>일정</th>
+            <th>시간</th>
+            <th>참석 대상</th>
+            <th>검토 항목</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2026-05-27</td>
+            <td>13:00 ~ 15:00</td>
+            <td>고객사 IT팀 / 개발사 기술팀</td>
+            <td>
+              - 사용자 수 확인<br>
+              - 부서 구조 분석<br>
+              - 권한 정책 검토
+            </td>
+          </tr>
+          <tr>
+            <td>2026-05-28</td>
+            <td>10:00 ~ 12:00</td>
+            <td>고객사 운영팀 / 개발사 PM</td>
+            <td>
+              - 결제 프로세스 분석<br>
+              - 게시판 운영 방식 검토<br>
+              - 자료 보관 정책 확인
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="section">
+      <h2>3. 제안서 및 견적 설명 일정</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>예정일</th>
+            <th>시간</th>
+            <th>내용</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2026-06-01</td>
+            <td>15:00 ~ 16:30</td>
+            <td>
+              - 구축 범위 설명<br>
+              - 서버 구성 제안<br>
+              - 예상 구축 기간 안내<br>
+              - 견적 설명 및 질의응답
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="footer">
+      문의 담당자: 미래그룹웨어솔루션 영업팀 / sales@example.com
+    </div>
+
+  </div>
+</body>
+</html>
